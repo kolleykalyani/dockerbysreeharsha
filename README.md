@@ -106,3 +106,9 @@ df -h
 ```
 docker rmi `docker images -aq` --force
 ```
+
+* it shows how many volumes we have attached to the ec2 instances
+
+```
+lsblk
+```

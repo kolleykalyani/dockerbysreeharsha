@@ -112,3 +112,27 @@ docker rmi `docker images -aq` --force
 ```
 lsblk
 ```
+ 
+* To create the filesystem for the volume
+
+```
+ mkfs.ext4 /dev/xvdf
+```
+
+* To mount the volumes to the created directory
+
+```
+ mount /dev/xvdf /myvolume
+```
+
+* To add the filesystem uuid to the fstab
+
+```
+vi /etc/fstab
+```
+
+* To reload the daemon
+
+```
+ systemctl daemon-reload
+```

@@ -41,3 +41,10 @@
 * WORKDIR	     :  Change working directory.
 
 
+* To see all the processes or steps running while building the images
+
+```
+docker run -rm -d --name kalyani -p 8000:80 imagename --progress=plain
+```
+
+* 

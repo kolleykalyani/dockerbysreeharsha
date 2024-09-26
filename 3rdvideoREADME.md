@@ -19,4 +19,18 @@
 
 * Use **ADD** when you need to extract archives or download files from remote locations.
 
+### Dangling Images :
+
+* Dangling images are untagged docker images that are not associated with any container.They are created when they overwritten with a new image with the same name and tag.
+
+* To remove all dangling images
+
+```
+docker image prune
+```
+
+
+
+
+
   

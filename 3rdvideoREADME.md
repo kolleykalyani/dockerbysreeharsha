@@ -29,7 +29,19 @@
 docker image prune
 ```
 
+### Difference b/w CMD and ENTRYPOINT ?
 
+* Both are same.Both are responsible for what the container should do when it is created.
+
+* If we want to overridee the **CMD** we can do but we cannot override in the **ENTRYPOINT**.
+
+* To see in which port the image is build or the container is running.
+
+```
+docker image inspect imageid
+```
+
+* 
 
 
 

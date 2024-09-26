@@ -41,7 +41,12 @@ docker image prune
 docker image inspect imageid
 ```
 
-* 
+* To get the complete detailsof container that are specified in the docker file without entering into container. 
+
+```
+docker exec -it containername env
+``` 
+
 
 
 

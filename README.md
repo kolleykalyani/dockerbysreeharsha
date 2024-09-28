@@ -9,6 +9,7 @@
 2.Docker Daemon   : Which is a background daemon running in the Docker host. When we install docker it will       
                     it will install both docker client and docker daemon but we can connect to the remote host 
                     using docker client.
+                    
 3.Docker registry : Where we are going to push our images.
 
 * First we need to update the sever

@@ -47,4 +47,9 @@
 docker run -rm -d --name kalyani -p 8000:80 imagename --progress=plain
 ```
 
-* 
+### What is Container ?
+
+* The word “**container**” doesn’t mean anything super precise. Basically, there are a few new Linux kernel features (“**namespaces” and “cgroups**”) that let you isolate processes from each other. When you use those features, you call it “**containers**”.
+
+* Basically, these features let you pretend you have something like a virtual machine, except it’s not a virtual machine at all, it’s just processes running in the same Linux kernel. 
+

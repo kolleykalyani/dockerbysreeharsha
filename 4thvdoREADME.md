@@ -38,4 +38,8 @@ docker rm volumename
 docker network create volumename
 ```
 
+### Docker Compose :
 
+* **Docker Compose** is a tool that allows you to define and manage multi-container Docker applications. It uses a **YAML** file (**docker-compose.yml**) to configure your application's services, networks, and volumes, making it easier to deploy and manage complex applications with multiple containers.
+
+* 

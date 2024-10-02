@@ -26,4 +26,16 @@ docker volume create my_volume
 docker volume inspect my_volume
 ```
 
-* 
+* To delete the created volumes
+
+```
+docker rm volumename
+```
+
+* To create a n/w bridge
+
+```
+docker network create volumename
+```
+
+
